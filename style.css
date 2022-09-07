@@ -1,0 +1,22 @@
+.dark {
+    background: black;
+    color: white;
+}
+
+.party {
+    animation: party 1s infinite, partytext 1s infinite;
+}
+
+@keyframes party {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  @keyframes partytext {
+    0%   {color: green;}
+    25%  {color: blue;}
+    50%  {color: yellow;}
+    100% {color: red;}
+  }
