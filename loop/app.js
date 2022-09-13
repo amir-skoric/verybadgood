@@ -9,3 +9,7 @@ function tal() {
 }
 
 l;
+return sum;
+}
+
+prut 
