@@ -13,7 +13,7 @@ function flipCoin(
       plat.push(coin);
     }
   }
-  console.log("Du har slået " + n + " gange i alt.");
-  console.log("Du har slået plat " + plat.length + " gang(e).");
-  console.log("Du har slået krone " + krone.length + " gang(e).");
+  console.log("Du har slået med terningen " + n + " gange");
+  console.log("Du har slået plat " + plat.length + " gang(e) i total.");
+  console.log("Du har slået krone " + krone.length + " gang(e) i total.");
 }
